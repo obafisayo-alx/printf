@@ -1,0 +1,96 @@
+.TH man 1 "17 October 2023" "1.0 Release version" "_printf man page"
+.SH NAME
+.B _printf man page
+.SH SYNOPSIS
+.B Use: _printf [format] [argument] ...
+
+.B Prototype:
+int _printf(const char * format, ...);
+
+.SH DESCRIPTION
+_printf() is a family of functions that produces output according to a format
+
+.SH OPTIONS
+
+.B %c
+- Prints a single character
+
+.B %s
+- Prints a string of characters
+
+.B %i
+- Prints an integer
+
+.B %d
+- Prints a decimal
+
+.B %%
+- Prints a single %
+
+.SH EXAMPLES
+.B --- Print a single character 'H' followed by a newline:
+
+_printf ("%c\\n", 'H');
+
+# H
+
+
+.B --- Print a string of characters 'ALX Africa!' followed by a newline:
+
+_printf ("%s\\n", "ALX Africa!");
+
+# ALX Africa!
+
+
+.B --- Print an integer number 3 followed by a newline:
+
+_printf("%i\\n", 3);
+
+# 3
+
+
+.B --- Print a single % followed by a newline:
+
+_printf("%%\\n")
+
+# %
+
+.B More examples in the future (or maybe not)
+
+.B Conversion specifiers
+
+.IP %c
+
+- prints character.
+
+.IP %s
+
+- prints string.
+
+.IP %%
+
+- prints percentage symbol.
+
+.IP %d
+
+- prints decimal.
+
+.IP %i
+
+- prints integer number.
+
+.SH SEE ALSO
+.B man 3 printf (printf man page)
+
+.SH BUGS
+NO BUGS :)
+
+.SH AUTHOR
+Obafisayo Abimbla - ALX Africa Cohort 19
+Mojahed suliman - ALX Africa Cohort 19
+
+.SH COPYRIGHT
+
+Obafisayo Abimbla - ALX Africa | Cohort 19 | Nigeria Campus
+
+Mojahed suliman - ALX Africa | Cohort 19 | Sudan
